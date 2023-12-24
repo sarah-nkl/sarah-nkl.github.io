@@ -25,7 +25,7 @@ Contact.
 
 alt = A man in a blue shirt with a happy expression
 
-We Design & Build Creative Products
+Welcome to My Portfolio!
 
 Get in touch
 
@@ -53,13 +53,13 @@ Years of Experience
 
 alt = Checkmark icon
 
-230+
-Completed Projects
+5+
+Industries
 
 alt = Peoples rating icon
 
-95+
-Happy Clients
+8+
+Publicly Released Apps
 
 
 
@@ -169,22 +169,25 @@ alt = Adobe XD logo
 
 My Works
 
-See My Works Which Will Amaze You!
+Projects that I have Explored
 
-We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.
+Explore my journey through Android development, data analysis, and machine learning—a collection showcasing my skills, creativity, and dedication in these dynamic tech domains.
 
 alt = A macintosh on a yellow background.
-Lorem Ipsum Dolor 01
-April 2022
+Git Search
+February 2017
 
 alt = On a Blue background, a Wacom and a mouse.
-Lorem Ipsum Dolor 02
+How to Choose a Private Property in SG
+September 2023
 
 alt = A Cassette tape on a mellow apricot background.
-Lorem Ipsum Dolor 03
+Sarah's Portfolio
+September 2023
 
 alt = Blue digital watch on a dark liver background.
-Lorem Ipsum Dolor 04
+Rubik's Square
+April 2021
 
 alt = On a dark liver background, Airport luggage car carrying a luggage.
 Lorem Ipsum Dolor 05
@@ -203,12 +206,12 @@ Load more work
 
 Contact
 
-Have You Any Project? Please Drop a Message
+Interested to Collaborate? Drop Me a Message!
 
-Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+I'm excited to connect, collaborate, and share insights with fellow enthusiasts. If you'd like to reach out, fill in the form or contact me through one of the following:
 
 <ion-icon name="location-outline"></ion-icon>
-Address:
+Based in:
 Singapore
 
 <ion-icon name="call-outline"></ion-icon>
