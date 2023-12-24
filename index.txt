@@ -1,8 +1,8 @@
-Jack - personal portfolio
+Sarah - personal portfolio
 
 # HEDER
 
-Jack.
+Sarah.
 
 En
 Ar
@@ -209,7 +209,7 @@ Get in touch and let me know how i can help. Fill out the form and i’ll be in 
 
 <ion-icon name="location-outline"></ion-icon>
 Address:
-941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+Singapore
 
 <ion-icon name="call-outline"></ion-icon>
 Phone:
@@ -218,8 +218,7 @@ Phone:
 
 <ion-icon name="mail-outline"></ion-icon>
 Email:
-info@jack.com
-support@jack.com
+sarah.neo.kl@gmail.com
 
 <ion-icon name="logo-facebook"></ion-icon>
 <ion-icon name="logo-twitter"></ion-icon>
@@ -248,7 +247,7 @@ Send
 
 # FOOTER
 
-Jack.
+Sarah.
 
 &copy; 2022 codewithsadee. All rights reserved
 
