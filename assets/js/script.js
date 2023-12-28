@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * element toggle function
+ * Element toggle function
  */
 
 const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
@@ -9,7 +9,7 @@ const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 /**
- * header sticky & go to top
+ * Header sticky & go to top
  */
 
 const header = document.querySelector("[data-header]");
@@ -30,7 +30,7 @@ window.addEventListener("scroll", function () {
 
 
 /**
- * navbar toggle
+ * Navbar toggle
  */
 
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
@@ -47,7 +47,7 @@ navToggleBtn.addEventListener("click", function () {
 
 
 /**
- * skills toggle
+ * Skills toggle
  */
 
 const toggleBtnBox = document.querySelector("[data-toggle-box]");
@@ -67,7 +67,7 @@ for (let i = 0; i < toggleBtns.length; i++) {
 
 
 /**
- * dark & light theme toggle
+ * Dark & light theme toggle
  */
 
 const themeToggleBtn = document.querySelector("[data-theme-btn]");
@@ -91,7 +91,7 @@ themeToggleBtn.addEventListener("click", function () {
 });
 
 /**
- * check & apply last time selected theme from localStorage
+ * Check & apply last time selected theme from localStorage
  */
 
 if (localStorage.getItem("theme") === "light_theme") {
@@ -103,3 +103,40 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+/**
+ * Contact form submission
+ */
+
+let contactForm = document.getElementById("contact-form");
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  var formHeaders = new Headers();
+  formHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+
+  var urlencoded = new URLSearchParams();
+  urlencoded.append("name", document.getElementById("name").value);
+  urlencoded.append("email", document.getElementById("email").value);
+  urlencoded.append("body", document.getElementById("message").value);
+
+  var requestOptions = {
+    method: 'POST',
+    headers: formHeaders,
+    body: urlencoded,
+    redirect: 'follow'
+  };
+
+  fetch("https://portfolio-website-409104.as.r.appspot.com/", requestOptions)
+    .then (response => {
+      if (response.ok) {
+        alert("Form submitted successfully!");
+      } else {
+        alert("Unsuccessful submission. Please contact me via sarah.neo.kl@gmail.com through your preferred email provider.");
+      }
+      return response.text;
+    })
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+});
